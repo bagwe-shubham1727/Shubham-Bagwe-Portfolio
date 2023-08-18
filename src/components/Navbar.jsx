@@ -85,7 +85,7 @@ const Navbar = () => {
               key={nav.label}
               className={`hover:background-color-white font-medium cursor-pointer`}
             >
-              <a href={`${nav.url}`}><img src={nav.icon} alt="SocialLogo" className="w-6 h-6 object-contain"></img></a>
+              <a href={`${nav.url}`} target="_blank"><img src={nav.icon} alt="SocialLogo" className="w-6 h-6 object-contain"></img></a>
             </li>
           ))}
         </ul>
