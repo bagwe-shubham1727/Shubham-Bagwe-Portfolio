@@ -1,9 +1,7 @@
 # SHubham-Bagwe-Portfolio
 Installation
 Step 1:
-Download or clone this repo by using the link below:
-
- https://github.com/ladunjexa/Threejs_3D_Portfolio.git
+Download or clone this repo
 Step 2:
 3D-Portfolio using NPM (Node Package Manager), therefore, make sure that Node.js is installed by execute the following command in console:
 
