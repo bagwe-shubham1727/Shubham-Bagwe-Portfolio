@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  linkedin,
+  githublogo,
 } from "../assets";
 
 export const navLinks = [
@@ -40,13 +42,26 @@ export const navLinks = [
   },
 ];
 
+export const socialLinks = [
+  {
+    label: 'Linkedin',
+    url: 'https://www.linkedin.com/in/shubham-bagwe/',
+    icon: linkedin,
+  },
+  {
+    label: 'Github',
+    url: 'https://github.com/suhas1711',
+    icon: githublogo,
+  },
+]
+
 const services = [
   {
     title: "Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -54,7 +69,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Software Testing",
     icon: creator,
   },
 ];

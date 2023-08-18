@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
-import { navLinks } from "../constants";
+import { navLinks, socialLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
@@ -78,6 +78,14 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
+            </li>
+          ))}
+          {socialLinks.map((nav) => (
+            <li
+              key={nav.label}
+              className={`hover:background-color-white font-medium cursor-pointer`}
+            >
+              <a href={`${nav.url}`}><img src={nav.icon} alt="SocialLogo" className="w-6 h-6 object-contain"></img></a>
             </li>
           ))}
         </ul>
