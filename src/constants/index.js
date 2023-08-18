@@ -15,16 +15,16 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
   tripguide,
   threejs,
   linkedin,
   githublogo,
+  ingram,
+  gep,
+  ambrosial,
+  ens,
+  portfolio,
+  health,
 } from "../assets";
 
 export const navLinks = [
@@ -131,55 +131,52 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Associate Software Developer",
+    company_name: "Ingram Micro",
+    icon: ingram,
+    iconBg: "#1e76bd",
+    date: "July 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js, .net and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Associate Analyst - TSO",
+    company_name: "GEP Worldwide",
+    icon: gep,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2022 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing different web interfaces, API and integrate them for various clients",
+      "Collaborating with cross-functional teams including business team, product managers, and other developers",
+      "Contributed in success of GEP SMART and GEP NEXXE",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Co-Owner",
+    company_name: "ENS Wardrobe",
+    icon: ens,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "August 2022 - April 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Started a bootstrap business which catered to client needs for customised clothing and perfumes.",
+      "Learned a lot about social media marketing, SEO, team management, business operations, etc.",
+      "Also developed an e-commerce website “enswardrobe.com” using the MERN stack.",
+    ],
+  },
+  {
+    title: "Web Developer - Intern",
+    company_name: "Ambrosial Inc.",
+    icon: ambrosial,
+    iconBg: "#E6DEDD",
+    date: "December 2019 - January 2020",
+    points: [
+      "Developing and maintaining web applications according to client needs",
+      "Gained hands-on experience under guidance of senior developers",
+      "Acquainted regarding the technologies like HTML5, CSS3, React",
     ],
   },
 ];
@@ -187,72 +184,32 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "We did a thorough research regarding the health and medical technology used in INDIA and published a research papaer, in which we provided a solution 'Health Bridge' ",
+    name: "International Journal of Research Publication",
+    designation: "Vol 3 Issue 4",
+    company: "",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Dashing Debut Award for outstanding debutant performance in whole Ingram Micro SSC",
+    name: "Ingram Micro SSC",
+    designation: "",
+    company: "",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Portfolio Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+      "A portfolio website to showcase myself. One you're probably looking at right now.",
+    image: portfolio,
   },
   {
-    name: "Job IT",
+    name: "Health Bridge",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+      "Web application that enables users to avail medical services on go such as appointment booking, e-prescription, ambulance on demand, disease prediction",
+    image: health,
   },
   {
     name: "Trip Guide",
