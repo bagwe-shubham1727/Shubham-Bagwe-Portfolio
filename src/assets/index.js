@@ -33,6 +33,11 @@ import tripguide from "./tripguide.png";
 import githublogo from "./nav/github.png";
 import linkedin from "./nav/linkedin.png";
 
+import neu from "./school/NEU.png";
+import vit from "./school/VIT.png";
+import pace from "./school/Pace.png";
+import sphs from "./school/sphs.png";
+
 export {
   logo,
   backend,
@@ -64,4 +69,8 @@ export {
   tripguide,
   githublogo,
   linkedin,
+  neu,
+  vit,
+  pace,
+  sphs,
 };

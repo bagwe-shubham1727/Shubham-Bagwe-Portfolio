@@ -25,6 +25,10 @@ import {
   ens,
   portfolio,
   health,
+  neu,
+  vit,
+  pace,
+  sphs,
 } from "../assets";
 
 export const navLinks = [
@@ -181,6 +185,37 @@ const experiences = [
   },
 ];
 
+const schools = [
+  {
+    title: "Master Of Science - Information System",
+    company_name: "Northeastern University",
+    icon: neu,
+    iconBg: "#FFFFFF",
+    date: "August 2024 - Present",
+  },
+  {
+    title: "Bachelor of Engineering - Information Technology",
+    company_name: "Vidyalankar Institute of Technology",
+    icon: vit,
+    iconBg: "#FFFFFF",
+    date: "August 2018 - May 2022",
+  },
+  {
+    title: "Higher Secondary Certificate - Science",
+    company_name: "Pace Junior Science College",
+    icon: pace,
+    iconBg: "#FFFFFF",
+    date: "July 2016 - March 2018",
+  },
+  {
+    title: "Secondary School Certificate",
+    company_name: "St. Paul High School",
+    icon: sphs,
+    iconBg: "#FFFFFF",
+    date: "June 2015 - May 2016",
+  },
+];
+
 const testimonials = [
   {
     testimonial:
@@ -193,6 +228,13 @@ const testimonials = [
     testimonial:
       "Dashing Debut Award for outstanding debutant performance in whole Ingram Micro SSC",
     name: "Ingram Micro SSC",
+    designation: "",
+    company: "",
+  },
+  {
+    testimonial:
+      "Completion of CS50x from Havard University",
+    name: "Cambridge, Massachusetts",
     designation: "",
     company: "",
   },
@@ -215,23 +257,8 @@ const projects = [
     name: "Trip Guide",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
     image: tripguide,
-    source_code_link: "https://github.com/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, schools, testimonials, projects };
