@@ -135,27 +135,27 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Associate Software Developer",
+    title: "Software Development Engineer (Full Stack)",
     company_name: "Ingram Micro",
     icon: ingram,
     iconBg: "#1e76bd",
-    date: "July 2022 - Present",
+    date: "July 2022 - August 2024",
     points: [
-      "Developing and maintaining web applications using React.js, .net and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained web applications using React JS, .NET and other related technologies.",
+      "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implemented responsive design and ensuring cross-browser compatibility.",
+      "Participated in code reviews and providing constructive feedback to fellow developers.",
     ],
   },
   {
-    title: "Associate Analyst - TSO",
+    title: "Software Developer Intern",
     company_name: "GEP Worldwide",
     icon: gep,
     iconBg: "#E6DEDD",
-    date: "June 2022 - July 2022",
+    date: "May 2022 - July 2022",
     points: [
-      "Developing different web interfaces, API and integrate them for various clients",
-      "Collaborating with cross-functional teams including business team, product managers, and other developers",
+      "Developed different web interfaces, API and integrate them for various clients",
+      "Collaborated with cross-functional teams including business team, product managers, and other developers",
       "Contributed in success of GEP SMART and GEP NEXXE",
     ],
   },
@@ -178,7 +178,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "December 2019 - January 2020",
     points: [
-      "Developing and maintaining web applications according to client needs",
+      "Developed and maintained web applications according to client needs",
       "Gained hands-on experience under guidance of senior developers",
       "Acquainted regarding the technologies like HTML5, CSS3, React",
     ],
