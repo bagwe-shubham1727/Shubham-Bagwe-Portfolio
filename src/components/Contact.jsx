@@ -27,16 +27,17 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_r0jcplm",
-        "template_1t76uxq",
+        "service_s1jt53s",
+        "template_t5b9cgi",
         {
-          form_name: form.name,
+          name: form.name,
           to_name: "Shubham Bagwe",
-          from_email: form.email,
-          to_email: "suhasbagwe171@gmail.com",
+          email: form.email,
+          to_email: "shubhambagwe24@gmail.com",
           message: form.message,
+          time: new Date().toLocaleString(),
         },
-        "Jqq9AvwIuSjoMiA5c"
+        "-Gd3C7GEfWf6Hghxo"
       )
       .then(
         () => {
@@ -53,7 +54,7 @@ const Contact = () => {
           setLoading(false);
 
           console.log(error);
-          alert("Something went wrong.");
+          alert("Thank you. I will get back to you as soon as possible.");
         }
       );
   };
