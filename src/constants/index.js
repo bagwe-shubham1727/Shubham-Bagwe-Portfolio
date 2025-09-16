@@ -29,6 +29,9 @@ import {
   vit,
   pace,
   sphs,
+  studentnexus,
+  staymaster,
+  curvebike
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +57,7 @@ export const socialLinks = [
   },
   {
     label: 'Github',
-    url: 'https://github.com/suhas1711',
+    url: 'https://github.com/bagwe-shubham1727',
     icon: githublogo,
   },
 ]
@@ -242,23 +245,40 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Student Nexus - A Comprehensive Student Accommodation System",
+    description:
+      "A full-stack student housing and services platform that enables secure onboarding, personalized accommodation recommendations, and seamless global access with integrated payments and responsive multi-device support.",
+    image: studentnexus,
+    source_code_link: "https://student-nexus.vercel.app/"
+  },
+  {
+    name: "StayMaster: Hotel Booking Management System",
+    description:
+      "A Java-based hotel booking management system that ensures real-time room availability, optimized booking retrieval, and efficient admin operations with a layered architecture and PostgreSQL backend.",
+    image: staymaster,
+    source_code_link: "https://bustling-bellflower-465.notion.site/StayMaster-A-Smart-Hotel-Booking-Platform-1f0a1c2c8ee281008d62c81ef4406df9"
+  },
+  {
+    name: "Curve Bike Management System",
+    description:
+      "A data-driven bike-sharing management system that models station demand and route traffic with time and climate factors to optimize bike inventory, rider incentives, and operational efficiency.",
+    image: curvebike,
+    source_code_link: "https://bustling-bellflower-465.notion.site/Curve-E-Bike-Management-System-1f0a1c2c8ee2817ca684c3f449f6abd1"
+  },
+  {
+    name: "Health Bridge - One Stop Healthcare",
+    description:
+      "Web application that enables users to avail medical services on go such as appointment booking, e-prescription, ambulance on demand, disease prediction",
+    image: health,
+    source_code_link: "https://bustling-bellflower-465.notion.site/Health-Bridge-All-In-One-HealthCare-System-1f0a1c2c8ee28170b200f3b1263efb66"
+  },
+  {
     name: "Portfolio Website",
     description:
       "A portfolio website to showcase myself. One you're probably looking at right now.",
     image: portfolio,
-  },
-  {
-    name: "Health Bridge",
-    description:
-      "Web application that enables users to avail medical services on go such as appointment booking, e-prescription, ambulance on demand, disease prediction",
-    image: health,
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    image: tripguide,
-  },
+    source_code_link: "https://github.com/bagwe-shubham1727/Shubham-Bagwe-Portfolio"
+  }
 ];
 
 export { services, technologies, experiences, schools, testimonials, projects };

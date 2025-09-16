@@ -37,6 +37,9 @@ import neu from "./school/NEU.png";
 import vit from "./school/VIT.png";
 import pace from "./school/Pace.png";
 import sphs from "./school/sphs.png";
+import curvebike from "./curvebike.png";
+import studentnexus from "./studentnexus.png";
+import staymaster from "./staymaster.png";
 
 export {
   logo,
@@ -73,4 +76,7 @@ export {
   vit,
   pace,
   sphs,
+  curvebike,
+  studentnexus,
+  staymaster
 };

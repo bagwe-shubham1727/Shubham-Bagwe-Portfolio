@@ -45,13 +45,21 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-7xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript, JavaScript and 
-        C# and expertise in frameworks like React, Node.js, and
-        .net . I'm a quick learner and collaborate closely with clients/team to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a Full Stack Software Engineer & Master’s Student at Northeastern
+        University with 2+ years of industry experience building
+        enterprise-scale web applications, microservices, and cloud-native
+        solutions. Proven success in reducing checkout abandonment by 15%,
+        cutting debugging time by 50%, and delivering platforms with 99.9%
+        uptime. Skilled in C# .NET, React, Node.js, AWS, PostgreSQL, and Redis,
+        with hands-on experience across the software development lifecycle
+        (SDLC), agile practices, and scalable architecture. Published researcher
+        with a strong record of ML-based system design, secure payment
+        integrations, and high-performance application development. Seeking
+        opportunities to leverage full-stack and cloud expertise to build
+        impactful, user-centric software solutions. Let's work together to bring
+        your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
