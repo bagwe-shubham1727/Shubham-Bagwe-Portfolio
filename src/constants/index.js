@@ -187,7 +187,7 @@ const experiences = [
 
 const schools = [
   {
-    title: "Master Of Science - Information System",
+    title: "Master Of Science - Computer Software Engineering",
     company_name: "Northeastern University",
     icon: neu,
     iconBg: "#FFFFFF",
