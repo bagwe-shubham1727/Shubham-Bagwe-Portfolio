@@ -43,7 +43,7 @@ import studentnexus from "./studentnexus.png";
 import staymaster from "./staymaster.png";
 import sentiment from "./sentiment.png";
 
-import dj from "./dj.png";
+import dj from "./DJ.png";
 import yu from "./yu.png";
 import shirish from "./shirish.png";
 import rohit from "./rohit.png";
