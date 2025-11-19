@@ -80,12 +80,27 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <a
+            href={`https://9r000pwht2vrehu6.public.blob.vercel-storage.com/Resume%20-%20Shubham%20Bagwe`}
+            target="_blank"
+          >
+            <p className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+              {" "}
+              Resume
+            </p>
+          </a>
           {socialLinks.map((nav) => (
             <li
               key={nav.label}
               className={`hover:background-color-white font-medium cursor-pointer`}
             >
-              <a href={`${nav.url}`} target="_blank"><img src={nav.icon} alt="SocialLogo" className="w-6 h-6 object-contain"></img></a>
+              <a href={`${nav.url}`} target="_blank">
+                <img
+                  src={nav.icon}
+                  alt="SocialLogo"
+                  className="w-6 h-6 object-contain"
+                ></img>
+              </a>
             </li>
           ))}
         </ul>

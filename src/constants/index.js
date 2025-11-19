@@ -1,3 +1,4 @@
+import { d } from "maath/dist/index-43782085.esm";
 import {
   mobile,
   backend,
@@ -31,8 +32,10 @@ import {
   sphs,
   studentnexus,
   staymaster,
-  curvebike
+  curvebike,
+  sentiment
 } from "../assets";
+import { s } from "maath/dist/misc-7d870b3c.esm";
 
 export const navLinks = [
   {
@@ -44,9 +47,13 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
-  },
+  }
 ];
 
 export const socialLinks = [
@@ -219,7 +226,7 @@ const schools = [
   },
 ];
 
-const testimonials = [
+const achievements = [
   {
     testimonial:
       "We did a thorough research regarding the health and medical technology used in INDIA and published a research papaer, in which we provided a solution 'Health Bridge' ",
@@ -229,7 +236,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Dashing Debut Award for outstanding debutant performance in whole Ingram Micro SSC",
+      "Dashing Debut Award for outstanding debutant performance in Ingram Micro worldwide",
     name: "Ingram Micro SSC",
     designation: "",
     company: "",
@@ -245,40 +252,137 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Sentiment Aura - A Real-Time AI Voice Sentiment Visualization",
+    description:
+      "Sentiment Aura is a real-time voice sentiment visualizer that transforms spoken words into an immersive sci-fi aura. Using AI-powered speech-to-text, sentiment analysis, and generative graphics, it creates dynamic particle systems, hex grids, and color-shifting auras that react instantly to your emotions.",
+    tags: [
+      {
+        name: "React + p5.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Deepgram Nova 2",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Google Gemini",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sentiment,
+    source_code_link: "https://github.com/bagwe-shubham1727/sentiment-aura/",
+    demo_link: "https://sentiment-aura-iota.vercel.app/"
+  },
+  {
     name: "Student Nexus - A Comprehensive Student Accommodation System",
     description:
       "A full-stack student housing and services platform that enables secure onboarding, personalized accommodation recommendations, and seamless global access with integrated payments and responsive multi-device support.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "pink-text-gradient",
+      },
+    ],
     image: studentnexus,
-    source_code_link: "https://student-nexus.vercel.app/"
+    source_code_link: "https://github.com/bagwe-shubham1727/student-nexus",
+    demo_link: "https://student-nexus.vercel.app/"
   },
   {
-    name: "StayMaster: Hotel Booking Management System",
+    name: "StayMaster - Hotel Booking Management System",
     description:
       "A Java-based hotel booking management system that ensures real-time room availability, optimized booking retrieval, and efficient admin operations with a layered architecture and PostgreSQL backend.",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaFX",
+        color: "pink-text-gradient",
+      },
+    ],
     image: staymaster,
-    source_code_link: "https://bustling-bellflower-465.notion.site/StayMaster-A-Smart-Hotel-Booking-Platform-1f0a1c2c8ee281008d62c81ef4406df9"
+    source_code_link: "https://github.com/bagwe-shubham1727/StayMaster",
+    demo_link: "https://bustling-bellflower-465.notion.site/StayMaster-A-Smart-Hotel-Booking-Platform-1f0a1c2c8ee281008d62c81ef4406df9"
   },
   {
     name: "Curve Bike Management System",
     description:
       "A data-driven bike-sharing management system that models station demand and route traffic with time and climate factors to optimize bike inventory, rider incentives, and operational efficiency.",
+    tags: [
+      {
+        name: "Streamlit",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OracleDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Data Modeling",
+        color: "pink-text-gradient",
+      },
+    ],
     image: curvebike,
-    source_code_link: "https://bustling-bellflower-465.notion.site/Curve-E-Bike-Management-System-1f0a1c2c8ee2817ca684c3f449f6abd1"
+    source_code_link: "https://github.com/bagwe-shubham1727/Curve-Bike-Management-System",
+    demo_link: "https://bustling-bellflower-465.notion.site/Curve-E-Bike-Management-System-1f0a1c2c8ee2817ca684c3f449f6abd1"
   },
   {
     name: "Health Bridge - One Stop Healthcare",
     description:
       "Web application that enables users to avail medical services on go such as appointment booking, e-prescription, ambulance on demand, disease prediction",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
     image: health,
-    source_code_link: "https://bustling-bellflower-465.notion.site/Health-Bridge-All-In-One-HealthCare-System-1f0a1c2c8ee28170b200f3b1263efb66"
+    source_code_link: "https://github.com/bagwe-shubham1727/HealthBridgeVIT",
+    demo_link: "https://bustling-bellflower-465.notion.site/Health-Bridge-All-In-One-HealthCare-System-1f0a1c2c8ee28170b200f3b1263efb66"
   },
   {
     name: "Portfolio Website",
     description:
       "A portfolio website to showcase myself. One you're probably looking at right now.",
+    tags: [
+      {
+        name: "Three.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Framer Motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
     image: portfolio,
-    source_code_link: "https://github.com/bagwe-shubham1727/Shubham-Bagwe-Portfolio"
+    source_code_link: "https://github.com/bagwe-shubham1727/Shubham-Bagwe-Portfolio",
+    demo_link: "https://shubham-bagwe-portfolio.vercel.app/"
   }
 ];
 
-export { services, technologies, experiences, schools, testimonials, projects };
+export { services, technologies, experiences, schools, achievements, projects };
