@@ -11,6 +11,7 @@ import {
   Works,
   StarsCanvas,
   Education,
+  Testimonials,
 } from "./components";
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
           <Tech />
           <Education />
           <Works />
+          <Testimonials />
           <Feedbacks />
           <Contact />
           <StarsCanvas />

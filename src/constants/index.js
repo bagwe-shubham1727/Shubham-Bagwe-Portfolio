@@ -1,4 +1,3 @@
-import { d } from "maath/dist/index-43782085.esm";
 import {
   mobile,
   backend,
@@ -33,7 +32,11 @@ import {
   studentnexus,
   staymaster,
   curvebike,
-  sentiment
+  sentiment,
+  dj,
+  yu,
+  shirish,
+  rohit
 } from "../assets";
 import { s } from "maath/dist/misc-7d870b3c.esm";
 
@@ -228,25 +231,60 @@ const schools = [
 
 const achievements = [
   {
-    testimonial:
+    title:
       "We did a thorough research regarding the health and medical technology used in INDIA and published a research papaer, in which we provided a solution 'Health Bridge' ",
     name: "International Journal of Research Publication",
     designation: "Vol 3 Issue 4",
     company: "",
   },
   {
-    testimonial:
+    title:
       "Dashing Debut Award for outstanding debutant performance in Ingram Micro worldwide",
     name: "Ingram Micro SSC",
     designation: "",
     company: "",
   },
   {
-    testimonial:
+    title:
       "Completion of CS50x from Havard University",
     name: "Cambridge, Massachusetts",
     designation: "",
     company: "",
+  },
+];
+
+const testimonials = [
+  {
+    testimonial:
+      "Shubham is a proactive, collaborative, and highly supportive student. His problem-solving ability, leadership, and empathy make him stand out. I’m confident he will be a valuable asset to any team or organization he joins.",
+    name: "Dr. Yu Jones",
+    designation: "Teaching Professor",
+    company: "Northeastern University",
+    image: yu,
+  },
+  {
+    testimonial:
+      "Shubham is a dedicated and high-performing engineer who consistently delivers excellent results. His initiative-driven mindset, quick learning ability, and strong problem-solving skills made him a key contributor to multiple high-impact projects. He is reliable, collaborative, and an asset to any team.",
+    name: "Dibyajit Chatterjee",
+    designation: "Director of Engineering",
+    company: "Ingram Micro",
+    image: dj,
+  },
+  {
+    testimonial:
+      "Shubham quickly translates business needs into effective technical solutions. His work improving procurement workflows, optimizing APIs, and enhancing system performance had a clear impact on efficiency and user experience. He is dependable, skilled, and delivers results.",
+    name: "Shirish Joshi",
+    designation: "Senior Engineering Manager",
+    company: "GEP Worldwide",
+    image: shirish,
+  },
+  {
+    testimonial:
+      "Shubham is a technically strong, detail-oriented, and quick-learning student. His project work in SQL and NoSQL, along with his leadership and problem-solving abilities, consistently stood out. He is disciplined, reliable, and well-prepared to excel in any future endeavor.",
+    name: "Rohit Barve",
+    designation: "Professor",
+    company: "Vidyalankar Institute of Technology",
+    image: rohit,
   },
 ];
 
@@ -385,4 +423,4 @@ const projects = [
   }
 ];
 
-export { services, technologies, experiences, schools, achievements, projects };
+export { services, technologies, experiences, schools, achievements, projects, testimonials };

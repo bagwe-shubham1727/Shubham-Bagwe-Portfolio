@@ -43,6 +43,11 @@ import studentnexus from "./studentnexus.png";
 import staymaster from "./staymaster.png";
 import sentiment from "./sentiment.png";
 
+import dj from "./dj.png";
+import yu from "./yu.png";
+import shirish from "./shirish.png";
+import rohit from "./rohit.png";
+
 export {
   logo,
   backend,
@@ -82,5 +87,9 @@ export {
   studentnexus,
   staymaster,
   link,
-  sentiment
+  sentiment,
+  dj,
+  yu,
+  shirish,
+  rohit
 };
