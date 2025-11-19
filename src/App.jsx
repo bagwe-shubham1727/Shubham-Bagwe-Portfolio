@@ -12,6 +12,7 @@ import {
   StarsCanvas,
   Education,
   Testimonials,
+  Footer,
 } from "./components";
 
 const App = () => {
@@ -33,6 +34,7 @@ const App = () => {
           <Feedbacks />
           <Contact />
           <StarsCanvas />
+          <Footer />
         </div>
       </div>
     </BrowserRouter>

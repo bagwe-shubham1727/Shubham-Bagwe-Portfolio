@@ -40,7 +40,7 @@ const ExperienceCard = ({ experience }) => {
         >
           {experience.company_name}
         </p>
-      </div>      
+      </div>
     </VerticalTimelineElement>
   );
 };
@@ -64,4 +64,4 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(Experience, "");

@@ -10,7 +10,7 @@ import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Education from "./Education";
 import Testimonials from "./Testimonials";
-
+import Footer from "./Footer";
 
 export {
   Hero,
@@ -27,5 +27,6 @@ export {
   EarthCanvas,
   BallCanvas,
   ComputersCanvas,
-  StarsCanvas
+  StarsCanvas,
+  Footer,
 };
